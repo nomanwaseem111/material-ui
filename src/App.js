@@ -32,7 +32,7 @@ const App = () => {
 
       <Offer />
       <Deals />
-
+      <Contact/>
       <Footer />
     </>
   )
