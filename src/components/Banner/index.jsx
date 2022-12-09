@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 
-const index = () => {
+const Banner = () => {
     return (
         <>
            <Stack backgroundColor="#f0e0ff">
@@ -30,4 +30,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Banner

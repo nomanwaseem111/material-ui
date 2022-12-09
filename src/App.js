@@ -2,38 +2,53 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import './components/index.css'
-
+import Container from '@mui/material/Container';
 
 import {
+  BrowserRouter as Router,
   Routes,
   Route,
-
+  
 } from "react-router-dom";
 import Accessories from './components/Accessories'
 import Mobile from './components/Mobile'
 import Contact from './components/Contact'
-import Banner from './components/Banner'
-import Deals from './components/Deals'
-import Offer from './components/Offer'
+import Login from './components/Login/Login'
+import SignUp from './components/Signup/Signup'
+import Forgot from './components/ForgotPassword/forgot';
 import Footer from './components/Footer';
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Routes>
+     
+     <Router>
+      <div>
+      
+        <Navbar/>
+        
+        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/accessories" element={<Accessories />} />
-        <Route path="/mobile" element={<Mobile />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Home />
-      <Banner />
 
-      <Offer />
-      <Deals />
-      <Contact/>
-      <Footer />
+        <Route path="/accessories" element={<Accessories />} />
+
+        <Route path="/mobile" element={<Mobile />} />
+
+        <Route path="/contact" element={<Contact />} />
+
+        <Route path="/login" element={<Login />} />
+
+        <Route path="/signup" element={<SignUp />} />
+
+        <Route path="/forgot" element={<Forgot />} />
+
+
+        </Routes>
+        <Container maxWidth="xl">
+        <Footer/>
+        </Container>
+      </div>
+    </Router>
     </>
   )
 }

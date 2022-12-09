@@ -1,11 +1,11 @@
 import React from 'react'
 
-const index = () => {
+const Mobile = () => {
   return (
     <div>
-      
+      Mobile
     </div>
   )
 }
 
-export default index
+export default Mobile

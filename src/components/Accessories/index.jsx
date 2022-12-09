@@ -1,10 +1,11 @@
 import React from 'react'
 
-const index = () => {
+const Accessories = () => {
   return (
  <>
+ Accessories
  </>
   )
 }
 
-export default index
+export default Accessories

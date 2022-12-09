@@ -1,12 +1,14 @@
 import React from "react"
 import Stack from "@mui/material/Stack"
 import { Typography } from "@mui/material"
+import  Container  from "@mui/material/Container"
 
-const index = () => {
+
+const Footer = () => {
   return (
-    <>
-       <Stack sx={{background:"#f6f6f8", mt:"150px"}}>
-      <Stack direction="row" justifyContent="space-around" alignItems="center" flexWrap="wrap" sx={{width:"90%",ml:"30px", height:"450px", mt:"10px", mb:"20px"}}>
+    <Container sx={{background:"#f6f6f8"}} maxWidth="xl">
+     
+      <Stack direction="row" justifyContent="space-around" alignItems="center" flexWrap="wrap" sx={{ml:"30px", height:"550px", mt:"10px"}}>
         <Stack>
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png"
@@ -56,9 +58,9 @@ const index = () => {
       
        
       </Stack>
-      </Stack>
-    </>
+      
+    </Container>
   )
 }
 
-export default index
+export default Footer

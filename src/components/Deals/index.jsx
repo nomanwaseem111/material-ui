@@ -3,7 +3,7 @@ import { Stack , Box} from "@mui/system"
 import React from "react"
 import Rating from '@mui/material/Rating';
 
-const index = () => {
+const Deals = () => {
   return (
     <>
       <Stack sx={{textAlign:"center"}}>
@@ -223,4 +223,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Deals

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const index = () => {
+const Contact = () => {
   return (
     <>
-     
+     Contact
     </>
   )
 }
 
-export default index
+export default Contact
