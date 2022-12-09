@@ -5,7 +5,7 @@ import { Typography } from "@mui/material"
 const index = () => {
   return (
     <>
-       <Stack sx={{background:"#f6f6f8"}}>
+       <Stack sx={{background:"#f6f6f8", mt:"150px"}}>
       <Stack direction="row" justifyContent="space-around" alignItems="center" flexWrap="wrap" sx={{width:"90%",ml:"30px", height:"450px", mt:"10px", mb:"20px"}}>
         <Stack>
           <img

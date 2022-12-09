@@ -25,27 +25,26 @@ export default function ButtonAppBar() {
                 <Stack direction="row"
                     justifyContent="space-between"
                     alignItems="center"
-                    spacing={8}
                     width="100%"
                     background="white" 
                     pb="30px"
                     pt="30px" 
-                    mx="50px" >
-                    <Box sx={{ml:"60px"}}>
+                    >
+                    <Box sx={{ml:"60px", width:"180px",padding:"5px"}}>
                      <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="logo" width="130px"/>
                     </Box>
-                    <Box sx={{px:"100px"}}>
-                        <Button sx={{color:"#555252", fontSize:"18px", width:"150px"}} component={Link} to='/'>Home</Button>
-                        <Button sx={{color:"#555252", fontSize:"18px",  width:"150px"}} component={Link} to='/accessories'>Accessories <KeyboardArrowDownIcon/></Button>
+                    <Box sx={{ px:"100px",width:"900px"}}>
+                        <Button sx={{color:"#555252", fontSize:"18px",ml:"30px", width:"auto"}} component={Link} to='/'>Home</Button>
+                        <Button sx={{color:"#555252", fontSize:"18px",ml:"30px",  width:"auto"}} component={Link} to='/accessories'>Accessories <KeyboardArrowDownIcon/></Button>
 
-                        <Button sx={{color:"#555252", fontSize:"18px", width:"150px"}} component={Link} to='/mobile'>Mobile <KeyboardArrowDownIcon/></Button>
-                        <Button sx={{color:"#555252", fontSize:"18px", width:"150px"}} component={Link} to='/contact'>Contact Us</Button>
+                        <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px"}} component={Link} to='/mobile'>Mobile <KeyboardArrowDownIcon/></Button>
+                        <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px"}} component={Link} to='/contact'>Contact Us</Button>
                     </Box>
-                    <Box sx={{width:"200px"}}>
-                        <SearchIcon className="icon-size" sx={{color:"black", width:"50px",height:"35px"}}/>
-                        <PersonOutlineIcon className="icon-size" sx={{color:"black",width:"50px",height:"35px"}}/>
-                        <FavoriteBorderIcon className="icon-size" sx={{color:"black", width:"50px",height:"35px"}}/>
-                        <LoginIcon className="icon-size" sx={{color:"black", width:"50px",height:"35px"}}/>
+                    <Box sx={{width:"300px"}}>
+                        <SearchIcon className="icon-size" sx={{color:"black", fontSize:"10px", ml:"15px" ,width:"auto",height:"40px"}}/>
+                        <PersonOutlineIcon className="icon-size" sx={{color:"black",ml:"15px" ,fontSize:"10px", width:"50px",height:"40px"}}/>
+                        <FavoriteBorderIcon className="icon-size" sx={{color:"black",ml:"15px" ,fontSize:"10px", width:"50px",height:"40px"}}/>
+                        <LoginIcon className="icon-size" sx={{color:"black", width:"50px",fontSize:"10px", ml:"15px"  ,height:"40px"}}/>
                     </Box>
                 </Stack>
             </Toolbar>

@@ -15,11 +15,11 @@ const index = () => {
         <Typography sx={{fontSize:"24px" , color:"grey", fontWeight:"500", cursor:"pointer", ":hover":{color:"black"}}}>Sale Items</Typography>
 
       </Stack>
-      <Stack direction="row" height="100%"  px="20px" justifyContent="space-between" flexWrap="wrap" width="90%" margin="auto" mt="70px">
+      <Stack direction="row" height="100%"  px="20px" justifyContent="space-between" flexWrap="wrap" width="80%" margin="auto" mt="70px">
         
         
-      <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px" }}>
-            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
+      <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
+            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/2.jpg" alt="" width="320px" 
                 mt="30px"/>
             
             <Box>
@@ -34,8 +34,8 @@ const index = () => {
         </Box>
 
 
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px" }}>
-            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
+            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/3.jpg" alt="" width="320px" 
                 mt="30px"/>
             
             <Box>
@@ -49,8 +49,8 @@ const index = () => {
             </Box>
         </Box>
 
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px" }}>
-            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
+            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/30.jpg" alt="" width="320px" 
                 mt="30px"/>
             
             <Box>
@@ -65,7 +65,7 @@ const index = () => {
         </Box>
 
 
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px" }}>
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
             <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
                 mt="30px"/>
             
@@ -82,7 +82,8 @@ const index = () => {
 
 
      
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px" }}>
+      
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
             <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
                 mt="30px"/>
             
@@ -97,25 +98,8 @@ const index = () => {
             </Box>
         </Box>
 
-
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px"}}>
-            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
-                mt="30px"/>
-            
-            <Box>
-               <Typography component="p" sx={{fontSize:"22px",mt:"30px"}}>Lorem ipsum fashion female top</Typography> 
-               <Rating name="size-large" defaultValue={2} size="large"  sx={{mt:"10px"}}/>
-
-
-               <Typography component="p" sx={{fontSize:"22px", mt:"8px"}}>€35.6</Typography> 
-
-
-            </Box>
-        </Box>
-       
-
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px"}}>
-            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
+            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/5.jpg" alt="" width="320px" 
                 mt="30px"/>
             
             <Box>
@@ -129,8 +113,8 @@ const index = () => {
             </Box>
         </Box>
 
-        <Box sx={{textAlign:"center", ml:"20px" ,height:"500px" ,mb:"150px" }}>
-            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/6.jpg" alt="" width="320px" 
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
+            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/29.jpg" alt="" width="320px" 
                 mt="30px"/>
             
             <Box>
@@ -144,6 +128,20 @@ const index = () => {
             </Box>
         </Box>
 
+        <Box sx={{textAlign:"center", ml:"5px" ,height:"500px" ,mb:"150px" }}>
+            <img src="https://flone.jamstacktemplates.dev/assets/img/product/fashion/7.jpg" alt="" width="320px" 
+                mt="30px"/>
+            
+            <Box>
+               <Typography component="p" sx={{fontSize:"22px",mt:"30px"}}>Lorem ipsum fashion female top</Typography> 
+               <Rating name="size-large" defaultValue={2} size="large"  sx={{mt:"10px"}}/>
+
+
+               <Typography component="p" sx={{fontSize:"22px", mt:"8px"}}>€35.6</Typography> 
+
+
+            </Box>
+        </Box>
        
 
 
