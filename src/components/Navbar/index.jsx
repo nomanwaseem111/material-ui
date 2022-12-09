@@ -41,10 +41,10 @@ export default function ButtonAppBar() {
                         <Button sx={{color:"#555252", fontSize:"18px", width:"auto",ml:"30px"}} component={Link} to='/contact'>Contact Us</Button>
                     </Box>
                     <Box sx={{width:"300px"}}>
-                        <SearchIcon className="icon-size" sx={{color:"black", fontSize:"10px", ml:"15px" ,width:"auto",height:"40px"}}/>
-                        <PersonOutlineIcon className="icon-size" sx={{color:"black",ml:"15px" ,fontSize:"10px", width:"50px",height:"40px"}}/>
-                        <FavoriteBorderIcon className="icon-size" sx={{color:"black",ml:"15px" ,fontSize:"10px", width:"50px",height:"40px"}}/>
-                        <LoginIcon className="icon-size" sx={{color:"black", width:"50px",fontSize:"10px", ml:"15px"  ,height:"40px"}}/>
+                        <SearchIcon className="icon-size" sx={{color:"black", cursor:"pointer" ,fontSize:"10px", ml:"15px" ,width:"auto",height:"40px"}}/>
+                        <PersonOutlineIcon className="icon-size" sx={{color:"black",ml:"15px" ,cursor:"pointer",fontSize:"10px", width:"50px",height:"40px"}}/>
+                        <FavoriteBorderIcon className="icon-size" sx={{color:"black",ml:"15px" ,cursor:"pointer",fontSize:"10px", width:"50px",height:"40px"}}/>
+                        <LoginIcon className="icon-size" sx={{color:"black", width:"50px",fontSize:"10px",cursor:"pointer", ml:"15px"  ,height:"40px"}}/>
                     </Box>
                 </Stack>
             </Toolbar>

@@ -7,7 +7,7 @@ const index = () => {
   return (
     <>
       <Stack sx={{textAlign:"center"}}>
-        <Typography component="h1" sx={{fontSize:"36px", fontWeight:"bold"}}>DAILY DEALS!</Typography>
+        <Typography component="h1" sx={{fontSize:"40px", fontWeight:"bold"}}>DAILY DEALS!</Typography>
       </Stack>
       <Stack direction="row" justifyContent="space-around" alignItems="center" width="30%" margin="auto" mt="50px" >
         <Typography sx={{fontSize:"25px" , color:"grey" , fontWeight:"500", cursor:"pointer", ":hover":{color:"black"}}}>New Arrivals</Typography>

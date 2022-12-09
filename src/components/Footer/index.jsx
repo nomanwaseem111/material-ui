@@ -15,7 +15,7 @@ const index = () => {
           />
           <Typography sx={{fontSize:"20px", mt:"20px", letterSpacing:"1px"}}>© 2022 Flone.<br/> All Rights Reserved</Typography>
         </Stack>
-        <Stack spacing={2}>
+        <Stack spacing={2} sx={{padding:"10px"}}>
             <Typography component="h2" sx={{fontSize:"22px", fontWeight:"400" , textTransform:"uppercase"}}>About Us</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>About us</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>Store location</Typography>
@@ -24,7 +24,7 @@ const index = () => {
 
         </Stack>
 
-        <Stack spacing={2}>
+        <Stack spacing={2} sx={{padding:"10px"}}>
             <Typography component="h2" sx={{fontSize:"22px", fontWeight:"400" , textTransform:"uppercase"}}>USEFUL LINKS</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>Returns</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>Store location</Typography>
@@ -34,7 +34,7 @@ const index = () => {
         </Stack>
 
 
-        <Stack spacing={2}>
+        <Stack spacing={2} sx={{padding:"10px"}}>
             <Typography component="h2" sx={{fontSize:"22px", fontWeight:"400" , textTransform:"uppercase"}}>About Us</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>About us</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>Store location</Typography>
@@ -44,7 +44,7 @@ const index = () => {
         </Stack>
 
 
-        <Stack spacing={2}>
+        <Stack spacing={2} sx={{padding:"10px"}}>
             <Typography component="h2" sx={{fontSize:"22px", fontWeight:"400" , textTransform:"uppercase"}}>About Us</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>About us</Typography>
             <Typography component="p" sx={{fontSize:"20px", fontWeight:"400", color:"#5d5d5d", }}>Store location</Typography>

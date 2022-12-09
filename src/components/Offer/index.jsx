@@ -10,13 +10,15 @@ const index = () => {
         direction="row"
         justifyContent="space-around"
         alignItems="center"
-        width="80%"
+        width="90%"
         mt="30px"
         margin="auto"
-        height="300px"
+        height="250px"
         flexWrap="wrap"
+        mb="50px"
+        py="50px"
       >
-        <Box sx={{display:"flex", width:"350px",px:"20px"}} >
+        <Box sx={{display:"flex", width:"350px",px:"20px",mt:"30px"}} >
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/icon-img/support-1.png"
             alt=""
@@ -28,7 +30,7 @@ const index = () => {
           </Box>
         </Box>
 
-        <Box sx={{display:"flex", width:"350px",px:"20px"}} >
+        <Box sx={{display:"flex", width:"350px",px:"20px",mt:"30px"}} >
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/icon-img/support-2.png"
             alt=""
@@ -40,7 +42,7 @@ const index = () => {
           </Box>
         </Box>
 
-        <Box sx={{display:"flex", width:"350px",px:"20px"}} >
+        <Box sx={{display:"flex", width:"350px",px:"20px",mt:"30px"}} >
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/icon-img/support-3.png"
             alt=""
@@ -53,7 +55,7 @@ const index = () => {
         </Box>
 
 
-        <Box sx={{display:"flex", width:"350px",px:"20px"}} >
+        <Box sx={{display:"flex", width:"350px",px:"20px",mt:"30px"}} >
           <img
             src="https://flone.jamstacktemplates.dev/assets/img/icon-img/support-4.png"
             alt=""
